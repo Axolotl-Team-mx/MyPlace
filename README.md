@@ -1,2 +1,2 @@
-# MyPlace
-Web app that allows you to mark and locate the stores in your area.
+# AxolotltTeam WebPage
+## Página web oficial del equipo de emprendimiento AxolotlTeam - Mx
