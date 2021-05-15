@@ -1,15 +1,12 @@
 <!DOCTYPE html>
 <html>
+<?php
+define('TITLE', 'Axolotl Team');
+?>
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Inicio - Axolotl Team</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
-    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
-    <link rel="icon" href='/assets/img/favicon.ico'>
+    <title>About - <?php echo TITLE ?></title>
+    <?php include 'head.php'; ?>
 </head>
 
 <body>
@@ -37,7 +34,7 @@
                             <h4 class="post-subtitle">Con <b>My place</b> podrás registrar tus establecimientos preferidos,
                                 solamente debes contar con un usuario para poder comenzar a conocer los establecimientos
                                 mas reconocidos en tu localidad.
-                        </h4>
+                            </h4>
                     </a>
                 </div>
                 <hr>
