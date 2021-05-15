@@ -45,7 +45,7 @@ define('TITLE', 'My Place');
                                     <td>
                                         <div class="control-group">
                                             <div class="form-group floating-label-form-group controls"><label>Nombre</label>
-                                                <input class="form-control" type="text" id="txtusrNombre" required="" placeholder="Ingrese nombre">
+                                                <input class="form-control" type="text" id="txtusrNombre" name="txtusrNombre" required="" placeholder="Ingrese nombre">
                                                 <small class="form-text text-danger help-block"></small>
                                             </div>
                                         </div>
@@ -56,7 +56,7 @@ define('TITLE', 'My Place');
                                     <td>
                                         <div class="control-group">
                                             <div class="form-group floating-label-form-group controls"><label>Apellidos</label>
-                                                <input class="form-control" type="text" id="txtusrApellidos" required="" placeholder="Ingrese apellidos">
+                                                <input class="form-control" type="text" id="txtusrApellidos" name="txtusrApellidos" required="" placeholder="Ingrese apellidos">
                                                 <small class="form-text text-danger help-block"></small>
                                             </div>
                                         </div>
@@ -67,7 +67,7 @@ define('TITLE', 'My Place');
                                     <td>
                                         <div class="control-group">
                                             <div class="form-group floating-label-form-group controls"><label>Correo electrónico</label>
-                                                <input class="form-control" type="email" id="txtusrCorreo" required="" placeholder="Ingrese Correo electrónico">
+                                                <input class="form-control" type="email" id="txtusrCorreo" name="txtusrCorreo" required="" placeholder="Ingrese Correo electrónico">
                                                 <small class="form-text text-danger help-block"></small>
                                             </div>
                                         </div>
@@ -100,7 +100,7 @@ define('TITLE', 'My Place');
                                     <td>
                                         <div class="control-group">
                                             <div class="form-group floating-label-form-group controls"><label>Usuario</label>
-                                                <input class="form-control" type="username" id="txtusrNomUsr" required="" placeholder="Ingrese usuario">
+                                                <input class="form-control" type="username" id="txtusrNomUsr" name="txtusrNomUsr" required="" placeholder="Ingrese usuario">
                                                 <small class="form-text text-danger help-block"></small>
                                             </div>
                                         </div>
@@ -111,7 +111,7 @@ define('TITLE', 'My Place');
                                     <td>
                                         <div class="control-group">
                                             <div class="form-group floating-label-form-group controls"><label>Contraseña</label>
-                                                <input class="form-control" type="password" id="txtusrContrasena" required="" placeholder="Ingrese contraseña">
+                                                <input class="form-control" type="password" id="txtusrContrasena" name="txtusrContrasena" required="" placeholder="Ingrese contraseña">
                                                 <small class="form-text text-danger help-block"></small>
                                             </div>
                                         </div>
