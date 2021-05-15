@@ -38,25 +38,25 @@ define('TITLE', 'My Place');
                     <p>Introducción pendiente...</p>
                     <h5> New User </h5>
                     <div class="Registro">
-                        <form method="POST" action="InsertDataUsrs.php">
+                        <form method="POST" action="InsertDataUsrs.php" onsubmit="return checkForm(this);">
                             <table>
                                 <tr>
                                     <td> Nombre(s): </td>
                                     <td>
                                         <div class="control-group">
-                                            <div class="form-group floating-label-form-group controls"><label>Name</label>
-                                                <input class="form-control" type="text" id="usrName" required="" placeholder="Name">
+                                            <div class="form-group floating-label-form-group controls"><label>Nombre</label>
+                                                <input class="form-control" type="text" id="txtusrNombre" required="" placeholder="Ingrese nombre">
                                                 <small class="form-text text-danger help-block"></small>
                                             </div>
                                         </div>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td> Apellido parterno: </td>
+                                    <td> Apellido(s): </td>
                                     <td>
                                         <div class="control-group">
-                                            <div class="form-group floating-label-form-group controls"><label>Last name</label>
-                                                <input class="form-control" type="text" id="usrLname" required="" placeholder="Last name">
+                                            <div class="form-group floating-label-form-group controls"><label>Apellidos</label>
+                                                <input class="form-control" type="text" id="txtusrApellidos" required="" placeholder="Ingrese apellidos">
                                                 <small class="form-text text-danger help-block"></small>
                                             </div>
                                         </div>
@@ -66,8 +66,8 @@ define('TITLE', 'My Place');
                                     <td> Correo electrónico: </td>
                                     <td>
                                         <div class="control-group">
-                                            <div class="form-group floating-label-form-group controls"><label>Email Address</label>
-                                                <input class="form-control" type="email" id="email" required="" placeholder="Correo electrónico">
+                                            <div class="form-group floating-label-form-group controls"><label>Correo electrónico</label>
+                                                <input class="form-control" type="email" id="txtusrCorreo" required="" placeholder="Ingrese Correo electrónico">
                                                 <small class="form-text text-danger help-block"></small>
                                             </div>
                                         </div>
@@ -77,7 +77,7 @@ define('TITLE', 'My Place');
                                     <td> Fecha de nacimiento: </td>
                                     <td>
                                         <div class="list-inline-item">
-                                            <input class="form-control list-inline-item" name="txtDay" type="date">
+                                            <input class="form-control list-inline-item" name="DateusrFechaNacimiento" type="date">
                                             <small class="form-text text-danger help-block"></small>
                                         </div>
                                     </td>
@@ -86,9 +86,9 @@ define('TITLE', 'My Place');
                                     <td> Sexo: </td>
                                     <td>
                                         <div class="list-inline-item">
-                                            <input type="radio" id="M" name="rbtnGender" value="M" require><label for="M">Male</label>
-                                            <input type="radio" id="F" name="rbtnGender" value="F" require><label for="F">Female</label>
-                                            <input type="radio" id="O" name="rbtnGender" value="O" require><label for="O">Other</label>
+                                            <input type="radio" id="M" name="rbtnGender" value="M" require><label for="M"> Masculino </label>
+                                            <input type="radio" id="F" name="rbtnGender" value="F" require><label for="F"> Femenino </label>
+                                            <input type="radio" id="O" name="rbtnGender" value="O" require><label for="O"> Otro </label>
                                         </div>
                                     </td>
                                 </tr>
@@ -99,8 +99,8 @@ define('TITLE', 'My Place');
                                     <td> Nombre del usuario: </td>
                                     <td>
                                         <div class="control-group">
-                                            <div class="form-group floating-label-form-group controls"><label>Username</label>
-                                                <input class="form-control" type="username" id="usrUsername" required="" placeholder="Username">
+                                            <div class="form-group floating-label-form-group controls"><label>Usuario</label>
+                                                <input class="form-control" type="username" id="txtNomUsr" required="" placeholder="Ingrese usuario">
                                                 <small class="form-text text-danger help-block"></small>
                                             </div>
                                         </div>
@@ -110,8 +110,8 @@ define('TITLE', 'My Place');
                                     <td> Contraseña: </td>
                                     <td>
                                         <div class="control-group">
-                                            <div class="form-group floating-label-form-group controls"><label>Password</label>
-                                                <input class="form-control" type="password" id="usrPass" required="" placeholder="Password">
+                                            <div class="form-group floating-label-form-group controls"><label>Contraseña</label>
+                                                <input class="form-control" type="password" id="txtusrContrasena" required="" placeholder="Ingrese contraseña">
                                                 <small class="form-text text-danger help-block"></small>
                                             </div>
                                         </div>
@@ -122,7 +122,7 @@ define('TITLE', 'My Place');
                                     <td>
                                         <div class="control-group">
                                             <div class="form-group floating-label-form-group controls"><label>Repeat password</label>
-                                                <input class="form-control" type="password" id="usrPass" required="" placeholder="Password">
+                                                <input class="form-control" type="password" id="txtusrContrasena2" required="" placeholder="Ingrese contraseña">
                                                 <small class="form-text text-danger help-block"></small>
                                             </div>
                                         </div>
