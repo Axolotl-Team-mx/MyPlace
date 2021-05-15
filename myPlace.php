@@ -37,14 +37,14 @@ define('TITLE', 'My Place');
                                 <tr>
                                     <div class="control-group">
                                         <div class="form-group floating-label-form-group controls"><label>Username</label>
-                                            <input class="form-control" type="username" id="usrUsername" placeholder="Username">
+                                            <input class="form-control" type="username" id="txtusrNomUsr" name="txtusrNomUsr" placeholder="Ingrese usuario">
                                             <small class="form-text text-danger help-block"></small>
                                         </div>
                                     </div>
                                 <tr>
                                     <div class="control-group">
                                         <div class="form-group floating-label-form-group controls"><label>Password</label>
-                                            <input class="form-control" type="password" id="usrPass" placeholder="Password">
+                                            <input class="form-control" type="password" id="txtusrContrasena" name="txtusrContrasena" placeholder="Ingrese contraseña">
                                             <small class="form-text text-danger help-block"></small>
                                         </div>
                                     </div>
@@ -56,14 +56,14 @@ define('TITLE', 'My Place');
                                         <div id="success"></div>
                                     <td>
                                         <div class="form-group">
-                                            <button class="btn btn-primary" id="sendMessageButton" type="submit">Sign in</button>
+                                            <button class="btn btn-primary" id="sendMessageButton" type="submit">Iniciar sesión</button>
                                         </div>
                                     </td>
                                     <div id="cancel"></div>
                                     <td>
                                         <div class="form-group">
                                             <a href="register.php">
-                                                <button class="btn btn-secondary" type="button" value="Register">Sign up</button>
+                                                <button class="btn btn-secondary" type="button" value="Register">Registrate</button>
                                             </a>
                                         </div>
                                     </td>

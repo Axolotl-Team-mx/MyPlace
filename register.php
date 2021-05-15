@@ -137,13 +137,13 @@ define('TITLE', 'My Place');
                                     <td colspan="2">
                                         <div id="success"></div>
                                     <td>
-                                        <div class="form-group"><button class="btn btn-primary" id="sendMessageButton" type="submit">Accept</button></div>
+                                        <div class="form-group"><button class="btn btn-primary" id="sendMessageButton" type="submit">Aceptar</button></div>
                                     </td>
                                     <a href="index.php">
                                         <div id="cancel"></div>
                                         <td>
                                             <a href="myPlace.php">
-                                                <div class="form-group"><button class="btn btn-secondary" id="sendMessageButton" type="button">Cancel</button>
+                                                <div class="form-group"><button class="btn btn-secondary" id="sendMessageButton" type="button">Cancelar</button>
                                             </a>
                                         </td>
                                     </a>
