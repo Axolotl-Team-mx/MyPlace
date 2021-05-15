@@ -36,7 +36,7 @@ define('TITLE', 'My Place');
             <div class="row">
                 <div class="col-md-10 col-lg-8 mx-auto">
                     <p>Introducción pendiente...</p>
-                    <h5> New User </h5>
+                    <h5> Nuevo usuario </h5>
                     <div class="Registro">
                         <form method="POST" action="InsertDataUsrs.php" onsubmit="return checkForm(this);">
                             <table>
@@ -100,7 +100,7 @@ define('TITLE', 'My Place');
                                     <td>
                                         <div class="control-group">
                                             <div class="form-group floating-label-form-group controls"><label>Usuario</label>
-                                                <input class="form-control" type="username" id="txtNomUsr" required="" placeholder="Ingrese usuario">
+                                                <input class="form-control" type="username" id="txtusrNomUsr" required="" placeholder="Ingrese usuario">
                                                 <small class="form-text text-danger help-block"></small>
                                             </div>
                                         </div>

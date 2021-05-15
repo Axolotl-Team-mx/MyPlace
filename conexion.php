@@ -7,4 +7,13 @@ $connectioninfo=array(
         "uid" => "apiPlace",
         "pwd" => "Axolotlteam3312"
     );
+
+    $conn = sqlsrv_connect($serverName,$connectioninfo);
+
+     //  if ($conn === false) {
+
+    //   printf("Conexion fallida.");
+    // }else
+
+    //printf("Conexion exitosa.");
 ?>
