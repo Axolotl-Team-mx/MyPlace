@@ -16,7 +16,7 @@
     <?php
     include 'header.php';
     ?>
-    <header class="masthead" style="background-image:url('assets/img/about-bg.jpg');">
+    <header class="masthead" style="background-image:url('assets/img/aboutPage.gif');">
         <div class="overlay"></div>
         <div class="container">
             <div class="row">
