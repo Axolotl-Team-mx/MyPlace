@@ -6,7 +6,9 @@
                 <li class="nav-item"><a class="nav-link" href="about.php">About us</a></li>
                 <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
                 <li class="nav-item"><a class="nav-link" href="myPlace.php">My Place</a></li>
-                <li class="nav-item"><a class="nav-link" href="Biodiversidad.php">Biodivesity</a></li>
+                <li class="nav-item"><a class="nav-link" href="Biodiversidad.php">Biodiversity</a></li>
+                <li class="nav-item"><a class="nav-link" href="Mapa.php">Mapa</a></li>
+
             </ul>
         </div>
     </div>
